@@ -30,10 +30,3 @@ output "for_output_map2" {
         */
     }
 # output with splat operator 
-output "legacy_splat_output" {
-    value = aws_instance.myec2vm.*.public_ip
-}
-# output with splat operator latest
-output "latest_splat_output" {
-    value = aws_instance.myec2vm[*].public_ip
-}
