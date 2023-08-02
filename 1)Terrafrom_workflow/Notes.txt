@@ -1,0 +1,8 @@
+Terraform workflow
+    - init
+    - validate
+    - plan
+    - apply
+    - destroy
+    -- required_version = "~> 0.15" should be checked with terraform verison 
+- then change the required_version to the terraform version 
